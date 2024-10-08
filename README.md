@@ -11,25 +11,25 @@ I will be using the HiRA detector as an example. \
 Once the conversion file ("ConvertHira.py") is updated, you can run the script in a few ways. \
 First, in the **NPTOOL-Wrapper** directory, make a directory named "outputs" by typing: \
 ``` console
-	mkdir outputs
+mkdir outputs
 ```
 Next, let's assume you have a simulation file named "simulation-test.root" located in your NPTool Outputs/Simulation directory. \
 To convert the file, you can call
 ```console 
-	python ConvertHira.py simulation-test.root
+python ConvertHira.py simulation-test.root
 ```
 If you have multiple files ("simulation-test.root", "another-file.root", etc), you can call these files in one go: \
 ```console
-	python ConvertHira.py simulation-test.root another-file.root
+python ConvertHira.py simulation-test.root another-file.root
 ```
 Alternatively, you can create an input text file ending with **.input** (for example, "hiraInput.input") and populate it with the names of each file you want to process.\
 From here, you can call
 ```console
-	python ConvertHira.py hiraInput.input
+python ConvertHira.py hiraInput.input
 ```
 or if you wish to mix an input file with other **.root** files, you can call
 ```console 
-	python ConverHira.py simulation-test.root hiraInput.input another-file.root
+python ConverHira.py simulation-test.root hiraInput.input another-file.root
 ```
 Only the set (unique file names ending with **.root**) will be processed by the conversion script. \
 If the file does not exist in your NPTool Outputs/Simulation directory, the file will not be found. \
