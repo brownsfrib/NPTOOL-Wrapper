@@ -1,0 +1,16 @@
+# <-- This character is a comment character for the input file
+# If you want to write notes in this file, start each line with #
+# Make sure that your file names have a new line for each individual file
+
+# Dont do this:
+#	file1.root, file2.root
+# Becuase it won't work :)
+
+# I have files called "test-norot-new.root" and "test-rot-new.root" in the outputs directory of my nptool framework
+# So the script will go out and find that and convert it to a 'pythonic' root file
+
+
+test-norot-new.root
+test-rot-new.root
+
+
