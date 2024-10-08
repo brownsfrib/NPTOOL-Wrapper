@@ -1,9 +1,9 @@
 # Wrapper for converting NPTool Simulation Files to a 'Pythonic' Output
 If you're uncomfortable with C++ and need to use NPTool, this let's you convert the simulation outputs from NPTool into a PyROOT styled output.
 For the following example notes, I will assume an existing detector package exists. \
-I will be using the HiRA detector as an example. \
+I will be using the HiRA detector as an example, and will assume your NPTool directory is compiled correctly/can run simulations. \
 
-1. Run a simulation using NPTool (check the nptool documentation for this) 
+1. Run a simulation using NPTool (check the [nptool documentation, version 3 only](https://nptool.in2p3.fr).
 2. Using the template (in this repository called "ConvertHira.py"), update the part of the code following the data structure of your detector found in NPLib to fit your analysis.
 	- This will require knowledge of your NPTool detector library, and sometimes this is not trivial. You'll need to at least know how to read C++ code.
 3. Update the output TTree and corresponding for loop in the template code ("ConvertHira.py") to fit your analysis needs.
