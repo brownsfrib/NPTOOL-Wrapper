@@ -34,6 +34,6 @@ or if you wish to mix an input file with other **.root** files, you can call
 Only the set (unique file names ending with **.root**) will be processed by the conversion script. \
 If the file does not exist in your NPTool Outputs/Simulation directory, the file will not be found. \
 You can change this path at your leisue in the conversion code. \
-# Have fun :slightly_smiling_face
+**Have fun** :slightly_smiling_face:
 
 
